@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="note"
+            type="com.mintusharma.notetaking.data.Notes" />
+
+        <variable
+            name="viewHolder"
+            type="com.mintusharma.notetaking.adapters.NotesListAdapter.NotesViewHolder" />
+
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:minHeight="50dp"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:background="@drawable/left_border"
+        android:onClick="@{()->viewHolder.onNoteClickListener.invoke(note)}">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:minHeight="50dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:text="@{note.title}"
+            tools:text="Title" />
+
+    </LinearLayout>
+
+</layout>

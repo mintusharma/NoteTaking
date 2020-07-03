@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">To-Do DailyNote</string>
+    <string name="app_name_reminder">Reminder</string>
+    <string name="my_notes_list_title" translation_description="Title for note">My Notes</string>
+    <string name="my_reminders_list_title" translation_description="Title for reminder">My Reminders</string>
+
+
+    <string name="no_tasks_image_content_description">No tasks image</string>
+    <string name="no_notes_text_placeholder">You Have No Notes Added</string>
+    <string name="no_favorite_notes_text_placeholder">You Have No Favorite Notes Added</string>
+    <string name="no_reminders_text_placeholder">You Have No Reminders Added</string>
+    <string name="category_all">All Notes</string>
+    <string name="category_favorites">Favorite Notes</string>
+    <string name="optionmenu_save">Save Note</string>
+    <string name="optionmenureminder_check">Save Reminder</string>
+    <string name="optionmenu_datepicker">Note Date</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="delete_reminder">Delete Reminder</string>
+    <string name="snackbartext_emptynote">Notes cannot be empty</string>
+    <string name="snackbartext_emptyReminder">Reminder Title cannot be empty</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="delete_note_message">Delete Note?</string>
+    <string name="delete_reminder_message">Delete Reminder?</string>
+    <string name="delete_dialog_positive_button">DELETE</string>
+    <string name="delete_dialog_negative_button">CANCEL</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="all_reminders">All Reminders</string>
+    <string name="reminder_date_time_text">%1$s, %2$s</string>
+    <string name="reminder_repeat_text">Every %1$d %2$s(s)</string>
+
+
+    <string name="snackbar_permission_message">Permission is required to launch the camera</string>
+    <string name="snackbar_permission_action_message">OK</string>
+    <string name="repeat_value_dialog_message">Set Repeat Value:</string>
+    <string name="value_dialog_positive_btn">Ok</string>
+    <string name="value_dialog_negative_btn">Cancel</string>
+
+    <string name="reminder_notification_channel_id" translatable="false">reminder_channel</string>
+    <string name="reminder_notification_channel_name" translatable="true">Reminder</string>
+    <string name="reminder_notification_channel_description">User reminder</string>
+
+    <string name="info">Hello , Thanks you for given the interesting task\n We can add more functionality and improve more function.
+        \n Earlier i do not have too much knowledge in kotlin but this task help me to go through and work on kotlin, This project is done
+        with the help of internet because i worked on java before this task.
+        \n Overall thanks Once again for your Task.\n\n Mintoo Sharma
+
+    </string>
+
+
+
+</resources>

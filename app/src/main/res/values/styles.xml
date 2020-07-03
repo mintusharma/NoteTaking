@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="NoteTaking_Theme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorOnSurface">@color/surfaceTextColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <item name="colorAccent">@color/primaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+    </style>
+
+
+    <style name="Theme.Todo" parent="NoteTaking_Theme" />
+    <style name="Theme.Todo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Todo.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar"/>
+
+    <style name="Theme.Todo.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/lobster_two_italic</item>
+        <item name="android:fontFamily">@font/lobster_two_italic</item>
+        <item name="android:color">?attr/colorOnPrimary</item>
+    </style>
+
+
+</resources>
